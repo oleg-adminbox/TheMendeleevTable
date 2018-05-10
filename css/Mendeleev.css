@@ -1,0 +1,191 @@
+html{ 	margin: 0;
+		padding: 0; 
+				}
+			
+			table{
+             /*background: #f6f2e7;*/
+			 border-collapse: collapse;
+			 border: 2px solid;
+			 border-bottom: none;
+             border-top: none;
+             background-color: #f6f2e7;
+			}
+
+			tr{
+				height: 60px;
+				border: 1px solid;
+			}
+
+            th{
+                padding: 0 2px;
+                height:17px;
+                border: 1px solid;
+                text-align: center;
+                line-height: 17px;
+            }
+
+            
+            td{
+                vertical-align: top;
+                padding: 1px 2px;
+                height:58px;
+                width: 100px;
+                border: 1px solid;
+            }
+
+            p{ 
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                font-size: 28px;
+                letter-spacing: 4px;
+                /*font-stretch: extra-expanded;*/
+                line-height: 26px;
+                margin: 0 0;
+                padding: 0 0;
+            }
+
+            div{
+                box-sizing: border-box;
+            }
+
+            h2{
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                margin: 0 0;
+                text-align: center;
+
+            }
+
+             h4{
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                margin: 0 0;
+                padding: 0 0;
+                text-align: center;
+            }
+
+			.sideheader{ 
+				width: 64px;
+				vertical-align: middle;
+				text-align: center;
+				font-weight: bolder;
+			}
+
+			.headsmall{
+				height: 17px;
+			}
+
+			.headmiddle{
+				height: 38px;
+			}
+
+			.portrait{
+				/*background: url('../images/Mendeleev_portrait.png') no-repeat;*/
+                text-decoration: none;
+
+			}
+
+            .cornerS{
+                background: url('../images/Mendeleev_corner_smallpart.png') no-repeat;
+            }
+		
+
+
+            .cornerB{
+                background: url('../images/Mendeleev_corner_bigpart.png') no-repeat;
+            }
+
+
+			 .Blue12{ /*оформление синих ячеек 1-2 валентной группы*/
+               
+                color:#639ccc;
+                    }
+
+            .Blue38{ /*оформление синих ячеек 3-8 валентной группы*/
+                color:#639ccc;             
+            }
+
+            .Red78{ /*оформление красных ячеек 7-8 валентной группы*/
+                color:#ea7a80;
+                   }
+
+            .Red12{ /*оформление красных ячеек 1-2 валентной группы*/
+                color:#ea7a80;            
+            }                   
+
+            .Orange{ /*оформление оранжевых ячеек*/
+                color:#efb870;            
+                    }
+
+
+            .Letters{ /*обозначение єлемента в таблице*/
+                font-family: 'Averia Serif Libre', cursive;
+                font-size: 20px;
+                font-weight: bold;
+                margin: 0px 5px;                                           
+            }
+
+     
+            .Number{ /*порядковый номер єлемента в таблице*/
+                color: black;
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                font-size: 11px;
+                font-weight: bold;
+                margin: 1px 2px;               
+            } 
+
+            .Weight{ /*масса єлемента*/
+                clear: both;
+                color: black;
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                font-size: 10px;            
+                margin: 1px 2px;
+            }
+           
+
+            .Name{ /*название єлемента*/
+                clear: both;
+                color: black;
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                text-transform: uppercase;
+                font-size: 11px;
+                font-weight: bold;
+                margin: 1px 2px;
+            }
+
+            .Right{ 
+                float:right;
+             }
+
+            .Left{
+                float:left;
+            }
+
+            .Center{
+            	text-align:center;                
+            }
+
+
+            
+            
+            
+
+            table.Lantanoid{
+                border-collapse: collapse;
+                margin-top: 0px;
+                border-top: none;
+            }
+
+            
+            /*tr.Lantanoid{
+
+                height:20px;
+            }
+*/
+            th.Lantanoid{
+                width:70px;
+                height: 17px;
+            }
+
+            td.Lantanoid{
+                width:70px;
+                height: 60px;
+                /*text-align: center;*/
+            }
